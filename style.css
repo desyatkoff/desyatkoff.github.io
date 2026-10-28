@@ -86,8 +86,7 @@ p {
 }
 
 .site-header {
-  backdrop-filter: blur(var(--radius-lg));
-  background: var(--header-bg);
+  background: var(--crust);
   border-bottom: 2px solid var(--surface-1);
   position: sticky;
   top: 0;
@@ -265,7 +264,7 @@ p {
   font-size: 1rem;
 }
 
-.card-link {
+.card-links {
   display: inline-block;
   font-size: 1rem;
   font-weight: 600;
