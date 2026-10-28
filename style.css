@@ -121,8 +121,14 @@ p {
   height: 2rem;
   max-height: 2rem;
   object-fit: cover;
+  transition: all 0.25s ease;
   vertical-align: middle;
   width: 2rem;
+}
+
+.logo-img:hover {
+  border-radius: var(--radius-lg);
+  transform: rotate(360deg);
 }
 
 .nav-links {
@@ -182,7 +188,7 @@ p {
 .hero h1 span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(0, var(--accent), var(--text));
+  background: var(--accent);
   background-clip: text;
 }
 
